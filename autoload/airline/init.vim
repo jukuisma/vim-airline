@@ -148,11 +148,11 @@ function! airline#init#bootstrap()
     call extend(g:airline_symbols, {
           \ 'readonly': "\u229D",
           \ 'whitespace': "\u2632",
-          \ 'maxlinenr': "\u2261",
-          \ 'linenr': " \u33d1:",
-          \ 'colnr': " \u2105:",
-          \ 'branch': "\u16A0",
-          \ 'notexists': "\u0246",
+          \ 'maxlinenr': "",
+          \ 'linenr': " ln:",
+          \ 'colnr': " c:",
+          \ 'branch': "",
+          \ 'notexists': "",
           \ 'crypt': nr2char(0x1F512),
           \ 'dirty': '!',
           \ }, 'keep')
